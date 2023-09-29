@@ -17,7 +17,7 @@ public class ClienteResource {
     UriInfo uriInfo;
 
 
-    private ClienteRepository repo = new ClienteRepository();
+    private ClienteRepository repo =  ClienteRepository.build();
 
 
 
